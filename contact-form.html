@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>VIPUL-Contact us!</title>
+
+   <!-- swiper css link  -->
+   <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+   <!-- font awesome cdn link  -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+   <!-- css link -->
+   <link rel="stylesheet" href="css/contact-form.css">
+  
+</head>
+<body>
+   
+<!-- header section starts  -->
+
+<section class="header">
+   <button data-text="Awesome" class="vipul-logo-btn">
+      <span class="actual-text">&nbsp;VIPUL&nbsp;</span>
+      <span class="vipul-hover-text" aria-hidden="true">&nbsp;VIPUL&nbsp;</span>
+  </button>
+   <nav class="navbar">
+      <a class="nav-btn" href="index.html">home</a>
+      <a class="nav-btn" href="#">about</a>
+      <a class="nav-btn" href="#">Work</a>
+      <a class="nav-btn" href="#">Skill</a>
+      <a class="nav-btn" href="#">Contact</a>
+   </nav>
+   <div id="menu-btn" class="fas fa-bars"></div>
+</section>
+
+<!-- header section ends -->
+
+
+<!-- services section starts  -->
+
+<section class="about">
+   <h1 class="heading-title"> Take a <span class="span-text-color">Coffee</span> & <span class="span-text-color">Chat</span> with me</h1>
+</section>
+
+<div class="form-div">
+   <form id="clearFrom">
+     <label for="name">Your Name*</label>
+     <input type="text" id="name" name="firstname" placeholder=" Enter Your name.." required>
+
+     <label for="email">Your Email*</label>
+     <input type="email" id="email" name="contactemail" placeholder="Enter your email.." required>
+
+     <label for="mobile">Your Mobile Number*</label>
+     <input type="number" id="mobile" name="mobileno" placeholder="Enter your mobile number.." required>
+
+     <label for="message">Your Message*</label>
+     <input type="text" id="message" name="message" placeholder="Type your message.." required>
+     </select>
+
+     <button class="submit-btn" type="submit" id="submit">Submit</button>
+   </form>
+ </div>
+
+<section class="footer">
+   
+   <div class="box-container">
+         <a href="https://api.whatsapp.com/send?phone=919817604896"> <i id="whatsapp" class="fab fa-whatsapp"></i></a>
+         <a href="https://t.me/vipulsharma98"> <i id="telegram" class="fab fa-telegram"></i></a>
+         <a href="https://www.instagram.com/vipul.sharma31/?next=%2F"> <i id="instagram" class="fab fa-instagram"></i></a>
+         <a href="https://www.linkedin.com/in/vipul-sharma-a5658025a"> <i id="linkedin" class="fab fa-linkedin"></i></a>
+      </div>
+
+   </div>
+
+   <div class="credit"> created by <span class="span-text-color">mr. Vipul Sharma</span> | all rights reserved! </div>
+
+</section>
+
+<!-- footer section ends -->
+
+
+<!-- swiper js link  -->
+<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+<!-- connect to the firebase -->
+<script src="https://www.gstatic.com/firebasejs/8.2.1/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.2.1/firebase-firestore.js"></script>
+<!-- custom js file link  -->
+<script src="js/contact-form.js"></script>
+
+</body>
+</html>
