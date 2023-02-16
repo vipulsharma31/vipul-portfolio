@@ -59,7 +59,13 @@
      <input type="text" id="message" name="message" placeholder="Type your message.." required>
      </select>
 
-     <button class="submit-btn" type="submit" id="submit">Submit</button>
+     <button class="submit-btn" type="submit" id="submit" onclick="openpopup()">Submit</button>
+   <div class="popup" id="popup">
+      <img src="images/submitted-logo.png">
+      <h2>Thank You!</h2>
+      <p>Your details has been successfully submitted, Thanks!</p>
+      <button type="button" onclick="closepopup()">OK</button>
+  </div>
    </form>
  </div>
 
