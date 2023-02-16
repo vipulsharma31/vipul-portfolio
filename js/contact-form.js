@@ -6,6 +6,17 @@ menu.onclick = () =>{
    navbar.classList.toggle('active');
 };
 
+
+let popup=document.getElementById("popup");
+
+function openpopup(){
+    popup.classList.add("openpopup");
+}
+function closepopup(){
+    popup.classList.remove("openpopup");
+}
+
+
 //Unique Firebase Object
 var firebaseConfig = {
     apiKey: "AIzaSyCkHh5zeDWDoZisGgGM9dR-TJToiZ1vtJI",
@@ -67,7 +78,7 @@ var firebaseConfig = {
       });
   
     //alert
-    alert("Your Form Has Been Submitted Successfully");
+    //alert("Your Form Has Been Submitted Successfully");
   
     //clear form after submission
     function clearForm() {
