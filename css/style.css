@@ -482,6 +482,34 @@ section{
    transition-duration: 400ms;
    transition-property: width, left;
  }
+/* -----------------------------------animated card------------------------------------------------ */
+.vip-card {
+   color: black;
+   height: 10px;
+   max-width: 23ch;
+   text-align: center;
+   background:#ffffff93;
+   padding: 1.5em;
+   padding-block: 1.8em;
+   border-radius: 10px;
+   position: absolute;
+   top: 100px;
+   left: 200px;
+   overflow: hidden;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 0.5em;
+   box-shadow: 7px 7px 10px #ffffff2b;
+   animation: fadeIn 1.0s backwards .4s;
+ }
+ 
+ .card__body {
+   color: #464853;
+   line-height: 1.5em;
+   font-size: 0.8em;
+ }
+ 
 
 
  /* --------------cards desgin------------------------ */
@@ -567,6 +595,11 @@ color: rgb(26, 170, 26);
    .home .slide .content h3{
       font-size: 10vw;
    }
+   .vip-card{
+        position: absolute;
+   top: 100px;
+   left: 120px;
+   }
 
 }
 
@@ -604,6 +637,12 @@ color: rgb(26, 170, 26);
       margin:2rem;
       text-align: center;
    }
+    .vip-card{
+        position: absolute;
+   top: 40px;
+   left: 80px;
+   }
+
 
 }
 
@@ -616,5 +655,15 @@ color: rgb(26, 170, 26);
    .heading-title{
       font-size: 3.5rem;
    }
+     .vip-card{
+        position: absolute;
+   top: 20px;
+   left: 20px;
+   height: 5px;
+   max-width: 11ch;
+   padding: 0.4;
+   padding-block: 1.3em;
+   }
+
 
 }
