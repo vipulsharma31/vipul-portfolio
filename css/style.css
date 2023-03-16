@@ -45,6 +45,7 @@ html{
 html::-webkit-scrollbar{
    width: 0.5rem;
    border-radius: 10px;
+   scroll-behavior:smooth;
 }
 
 html::-webkit-scrollbar-track{
