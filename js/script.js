@@ -33,5 +33,10 @@ var swiper = new Swiper(".reviews-slider", {
 let loadMoreBtn = document.querySelector('.packages .load-more .btn');
 let currentItem = 3;
 
+document.getElementById("home-button").addEventListener("click", function() {
+   document.getElementById("home-section").scrollIntoView({behavior: "smooth"});
+ });
+ 
+
 
 
