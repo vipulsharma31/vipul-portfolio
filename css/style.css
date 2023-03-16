@@ -700,31 +700,3 @@ color: rgb(26, 170, 26);
 
 }
 
-
-
-.home-button-container {
-   position:fixed;
-   bottom: 20px;
-   right: 20px;
-   z-index: 100;
- }
- 
- #home-button {
-   background-color: #8401a9;
-   border: none;
-   color: white;
-   padding: 15px 22px;
-   text-align: center;
-   text-decoration: none;
-   display: inline-block;
-   font-size: 16px;
-   margin: 4px 2px;
-   cursor: pointer;
-   border-radius: 40px;
-   transition: 0.2s;
- }
- #home-button:hover{
-   background-color: #060030;
-   color: white;
- }
- 
