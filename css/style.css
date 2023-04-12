@@ -165,6 +165,15 @@ section{
    padding:1rem 0;
    animation:fadeIn .2s linear backwards .4s;
 }
+.home h1{
+   color: black;
+   text-align: center;
+   background:#ffffff93;
+   padding: .5em;
+   border-radius: 10px;
+   box-shadow: 7px 7px 10px #ffffff2b;
+   animation: fadeIn 1.0s backwards .4s;
+}
 
 .services .box-container{
    display: grid;
