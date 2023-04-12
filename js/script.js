@@ -1,6 +1,36 @@
 let menu = document.querySelector('#menu-btn');
 let navbar = document.querySelector('.header .navbar');
 
+
+heading = document.querySelector('.text');
+
+let text = 'More Profit...';
+let texts = ['Profit ...','Customers ...','Revenue ...','Sales ...']
+
+let i = 1;
+isForwards = true;
+textCount = 0;
+
+setInterval(function(){
+  heading.textContent = texts[textCount].substring(0,i);
+  if (isForwards){
+    i++;
+  }
+  else {
+    i--;
+  }
+  if(i > text.length + 10) {
+    isForwards = false;
+  }
+  if(i<0){
+    isForwards = true;
+    textCount++;
+  }
+  if(textCount > texts.length-1) {
+    textCount = 0;
+  }
+},100)
+
 menu.onclick = () =>{
    menu.classList.toggle('fa-times');
    navbar.classList.toggle('active');
